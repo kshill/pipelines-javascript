@@ -18,7 +18,7 @@ stages:
         script: 'COMMAND'
         workingDirectory: DEFAULT WORKING DIRECTORY
     - task: CmdLine@2
-      displayname: DISPLAY NAME
+      displayName: DISPLAY NAME
       inputs:
         script: 'sudo npm install -g newman'
         workingDirectory: DEFAULT WORKING DIRECTORY
